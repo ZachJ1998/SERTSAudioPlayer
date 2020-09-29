@@ -1,0 +1,10 @@
+C:\Users\Zach Jones\source\repos\SERTSAudioPlayer\SERTS GUI\SERTS GUI\bin\Debug\SERTS GUI.exe.config
+C:\Users\Zach Jones\source\repos\SERTSAudioPlayer\SERTS GUI\SERTS GUI\bin\Debug\SERTS GUI.exe
+C:\Users\Zach Jones\source\repos\SERTSAudioPlayer\SERTS GUI\SERTS GUI\bin\Debug\SERTS GUI.pdb
+C:\Users\Zach Jones\source\repos\SERTSAudioPlayer\SERTS GUI\SERTS GUI\obj\Debug\SERTS GUI.csprojAssemblyReference.cache
+C:\Users\Zach Jones\source\repos\SERTSAudioPlayer\SERTS GUI\SERTS GUI\obj\Debug\SERTS_GUI.Form1.resources
+C:\Users\Zach Jones\source\repos\SERTSAudioPlayer\SERTS GUI\SERTS GUI\obj\Debug\SERTS_GUI.Properties.Resources.resources
+C:\Users\Zach Jones\source\repos\SERTSAudioPlayer\SERTS GUI\SERTS GUI\obj\Debug\SERTS GUI.csproj.GenerateResource.cache
+C:\Users\Zach Jones\source\repos\SERTSAudioPlayer\SERTS GUI\SERTS GUI\obj\Debug\SERTS GUI.csproj.CoreCompileInputs.cache
+C:\Users\Zach Jones\source\repos\SERTSAudioPlayer\SERTS GUI\SERTS GUI\obj\Debug\SERTS GUI.exe
+C:\Users\Zach Jones\source\repos\SERTSAudioPlayer\SERTS GUI\SERTS GUI\obj\Debug\SERTS GUI.pdb
