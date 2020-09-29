@@ -1,0 +1,2 @@
+This is also a test file. A dummy variable, one might say. 
+This will hold the location till we get music files in.

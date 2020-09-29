@@ -35,8 +35,10 @@
 			this.skipForwardButton = new System.Windows.Forms.Button();
 			this.skipBackButton = new System.Windows.Forms.Button();
 			this.PauseButton = new System.Windows.Forms.Button();
-			this.pictureBox1 = new System.Windows.Forms.PictureBox();
 			this.textBox1 = new System.Windows.Forms.TextBox();
+			this.pictureBox1 = new System.Windows.Forms.PictureBox();
+			this.listBox1 = new System.Windows.Forms.ListBox();
+			this.FileLoadButton = new System.Windows.Forms.Button();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.SuspendLayout();
 			// 
@@ -103,15 +105,6 @@
 			this.PauseButton.Visible = false;
 			this.PauseButton.Click += new System.EventHandler(this.PauseButton_Click);
 			// 
-			// pictureBox1
-			// 
-			this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-			this.pictureBox1.Location = new System.Drawing.Point(270, 12);
-			this.pictureBox1.Name = "pictureBox1";
-			this.pictureBox1.Size = new System.Drawing.Size(300, 297);
-			this.pictureBox1.TabIndex = 6;
-			this.pictureBox1.TabStop = false;
-			// 
 			// textBox1
 			// 
 			this.textBox1.Location = new System.Drawing.Point(305, 329);
@@ -120,14 +113,45 @@
 			this.textBox1.TabIndex = 7;
 			this.textBox1.Text = "This is the song name!";
 			// 
+			// pictureBox1
+			// 
+			this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+			this.pictureBox1.Location = new System.Drawing.Point(195, -2);
+			this.pictureBox1.Name = "pictureBox1";
+			this.pictureBox1.Size = new System.Drawing.Size(390, 325);
+			this.pictureBox1.TabIndex = 8;
+			this.pictureBox1.TabStop = false;
+			// 
+			// listBox1
+			// 
+			this.listBox1.FormattingEnabled = true;
+			this.listBox1.ItemHeight = 16;
+			this.listBox1.Location = new System.Drawing.Point(668, 12);
+			this.listBox1.Name = "listBox1";
+			this.listBox1.Size = new System.Drawing.Size(120, 228);
+			this.listBox1.TabIndex = 9;
+			// 
+			// FileLoadButton
+			// 
+			this.FileLoadButton.ForeColor = System.Drawing.Color.Black;
+			this.FileLoadButton.Location = new System.Drawing.Point(668, 265);
+			this.FileLoadButton.Name = "FileLoadButton";
+			this.FileLoadButton.Size = new System.Drawing.Size(120, 23);
+			this.FileLoadButton.TabIndex = 10;
+			this.FileLoadButton.Text = "Load File";
+			this.FileLoadButton.UseVisualStyleBackColor = true;
+			this.FileLoadButton.Click += new System.EventHandler(this.FileLoadButton_Click);
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.ClientSize = new System.Drawing.Size(800, 450);
-			this.Controls.Add(this.textBox1);
+			this.Controls.Add(this.FileLoadButton);
+			this.Controls.Add(this.listBox1);
 			this.Controls.Add(this.pictureBox1);
+			this.Controls.Add(this.textBox1);
 			this.Controls.Add(this.PauseButton);
 			this.Controls.Add(this.skipBackButton);
 			this.Controls.Add(this.skipForwardButton);
@@ -152,8 +176,10 @@
 		private System.Windows.Forms.Button skipForwardButton;
 		private System.Windows.Forms.Button skipBackButton;
 		private System.Windows.Forms.Button PauseButton;
-		private System.Windows.Forms.PictureBox pictureBox1;
 		private System.Windows.Forms.TextBox textBox1;
+		private System.Windows.Forms.PictureBox pictureBox1;
+		private System.Windows.Forms.ListBox listBox1;
+		private System.Windows.Forms.Button FileLoadButton;
 	}
 }
 
