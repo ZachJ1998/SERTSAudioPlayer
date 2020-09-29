@@ -1,6 +1,7 @@
 ﻿using System;
-
+using System.Windows;
 using System.Windows.Forms;
+using MessageBox = System.Windows.Forms.MessageBox;
 
 namespace SERTS_GUI
 {
@@ -24,13 +25,32 @@ namespace SERTS_GUI
 
 		private void ffButton_Click(object sender, EventArgs e)
 		{
-
+			string message = "You clicked Fast Forward";
+			MessageBox.Show(message);
 		}
 
 		private void PauseButton_Click(object sender, EventArgs e)
 		{
 			PauseButton.Hide();
 			PlayButton.Show();
+		}
+
+		private void skipBackButton_Click(object sender, EventArgs e)
+		{
+			string message = "You clicked Skip Back Button";
+			MessageBox.Show(message);
+		}
+
+		private void rwButton_Click(object sender, EventArgs e)
+		{
+			string message = "You clicked Rewind Button";
+			MessageBox.Show(message);
+		}
+
+		private void skipForwardButton_Click(object sender, EventArgs e)
+		{
+			string message = "You clicked Skip Forward Button";
+			MessageBox.Show(message);
 		}
 	}
 }
