@@ -1549,4 +1549,24 @@
         GGmGGmGGmGGmGGmGGmGGmGGmGGmGGmGGmGGmGGmGGmGGmGGmGGmGGmGGmGP/2Q==
 </value>
   </data>
+  <data name="RepeatButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAXCAIAAACeQxh6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
+        dAAAEnQB3mYfeAAAAI1JREFUOE+9joENgCAMBJ3FSRjAZd3QD98ELdAWBS8kpPS5dkuT+F20ZaRoMSDa
+        z8NwlUYeaQGR4ZLXe9Q9TVcRMWFgWIAWsazxA3IFREYXREUuC0SEpYHkquTwClA0d18jQrtOKBBwRL2E
+        whGxzYRLV8Re/NQW8GYjflGUVyR60yI8vuV5M0RfmCRK6QJai2oeqeNK6QAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="ShuffleButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAXCAIAAACeQxh6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
+        dAAAEnQB3mYfeAAAAJpJREFUOE/djoENgDAIBDuLk3QAl3VDqY+IUFpjjTFeTPzAc2nKD/EZUUpsGBKR
+        ZVpmuHZfDAoebEkE1yHCyHxSMPh+50Wl4VwyR+DMywBUdU1PTnnbtogugeS+iJB7Y9FcEhFtC/Hii/S9
+        d0nuiKqXVe/uCzAWIHMEznrnPykYfL/zIgIFD7ZsIXh8C4ggGRXBUjJ+4/xWlPMKLR1r+/a6K9kAAAAA
+        SUVORK5CYII=
+</value>
+  </data>
+  <metadata name="MyPort.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>
